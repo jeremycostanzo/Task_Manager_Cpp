@@ -30,8 +30,8 @@ void append_task(ifstream& file, vector<Task>* task_list){ // On suppose que le 
 	Task ts (id, deadline , title, description, creation_time, status, progress, priority, commentaries, subtasks);
 	task_list->push_back(ts);
 }
-vector<Task> of_path(string pat){
-	ifstream input(pat);
+vector<Task> of_path(string path){
+	ifstream input(path);
 	//string st;
 	vector<Task> got {};
 	string l;
@@ -42,9 +42,9 @@ vector<Task> of_path(string pat){
 	return got;
 } 
 
-void write(vector<Task> v, string pat){
+void write(vector<Task> v, string path){
 	ofstream tsks;
-	tsks.open(pat);
+	tsks.open(path);
 	for (Task i : v){
 		string s = i.to_string();
 		tsks << s;
