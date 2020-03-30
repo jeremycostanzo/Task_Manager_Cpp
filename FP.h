@@ -1,7 +1,9 @@
+#ifndef FP
+#define FP
+#include "Task.h"
 #include <vector>
 #include <functional>
 #include <iostream>
-
 using namespace std;
 
 template <class G, class T>
@@ -31,3 +33,4 @@ bool is_in(T a, vector<T> v){
 	}
 	return false;
 }
+#endif
