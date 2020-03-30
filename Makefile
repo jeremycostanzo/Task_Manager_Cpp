@@ -8,4 +8,4 @@ Task_manager.out: $(OBJS)
 %.o: %.cpp
 	$(CXX) $< -c
 clean:
-	rm $(OBJS)
+	rm $(OBJS) $(EXE)

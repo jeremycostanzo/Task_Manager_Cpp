@@ -1,3 +1,6 @@
+/*Ce fichier contient la classe Task qui
+représente... UNE                     pisTACHE!*/
+
 #ifndef TASK
 #define TASK
 
@@ -49,21 +52,25 @@ class Task{
 
 	void set_comment();
 
-    void set_desc();
+  void set_desc();
 
-    void set_prog();
+  void set_prog();
 
-    void set_subt();
+  void set_subt();
 
-    void set_dl();
+  void set_dl();
 
-    void set_tit();
+  void set_tit();
 
-    void set_stat();
+  void set_stat();
 
-    void set_prio();
+  void set_prio();
 }
 ;
+
+/*Ces fonctions permettent d'être utilisées dans 
+un dictionnaire défini dans Fonctionalites.h 
+pour ne pas mettre des if de partout           */
 
 Task set_commentaries(Task t);
 

@@ -1,3 +1,7 @@
+/*Ce fichier permet d'écrire un vecteur de taches
+dans un fichier et de lire un tableau de taches
+depuis un fichier                              */
+
 #ifndef IO
 #define IO
 #include <fstream>

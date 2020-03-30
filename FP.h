@@ -1,3 +1,8 @@
+/*Ce fichier contient des fonctions que j'aimais 
+utiliser en CAML mais qui n'existent pas ou dont 
+la syntaxe est plus compliquée en
+C++                                            */
+
 #ifndef FP
 #define FP
 #include "Task.h"

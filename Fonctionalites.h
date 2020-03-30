@@ -1,3 +1,7 @@
+/*Ce fichier contient les commandes que 
+l'utilisateur appelle quand il utilise le 
+programme                                      */
+
 #ifndef FONCH
 #define FONCH
 #include <string>
